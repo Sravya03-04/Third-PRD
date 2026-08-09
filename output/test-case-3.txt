@@ -1,0 +1,110 @@
+INPUT:  Test Case 3: Exact boundary values
+
+========================================================
+                      CAMPUSTRACK
+========================================================
+           Student Academic Management System
+--------------------------------------------------------
+Enter student ID:
+STU101
+Enter full name: 
+Ananya Rao
+Enter age: 
+20
+Enter email: 
+ananya@gmail.com
+Select course: 
+1. BCA
+2. B.Sc Computer Science
+3. BE/B.Tech
+4. MCA
+5. Other
+Enter course choice:
+3
+Enter semester (1-8): 
+4
+Career goal: 
+Become a java backend developer
+Enter Java marks: 
+40
+Enter SQL marks: 
+40
+Enter Web Technology marks: 
+40 
+Enter Aptitude marks: 
+40
+Enter Communication marks: 
+40
+Enter total classess conducted: 
+100
+Enter classes attended: 
+75
+How many assignment scores do you want to enter?
+3
+Enter score for assignment 1(0-10, -1 to finish): 
+5
+Enter score for assignment 2(0-10, -1 to finish): 
+5
+Enter score for assignment 3(0-10, -1 to finish): 
+5
+Enter amount paid: 
+50000
+
+OUTPUT:
+========================================================
+                 STUDENT SEMESTER REPORT
+========================================================
+Student ID                 : STU101
+Student Name               : Ananya Rao
+Age                        : 20
+Email                      : ananya@gmail.com
+Course                     : BE/B.Tech
+Semester                   : 4
+Career Goal                : Become a java backend developer
+
+---------------- ACADEMIC SUMMARY --------------------
+Java Marks                 : 40
+SQL Marks                  : 40
+Web Technology Marks       : 40
+Aptitude Marks             : 40
+Communication Marks        : 40
+Total Marks                : 200/500
+Percentage                 : 40.00%
+Academic Result            : PASSED
+Grade                      : D
+
+---------------- ATTENDANCE SUMMARY ------------------
+Classes Conducted          : 100
+Classes Attended           : 75
+Attendance Percentage      : 75.00%
+Attendance Status          : REGULAR
+
+---------------- ASSIGNMENT SUMMARY ------------------
+Valid Assignments          : 3
+Assignment Total           : 15
+Assignment Average         : 5.00
+Assignment Status          : SATISFACTORY
+
+---------------- FEE SUMMARY ------------------
+Base Semester Fee          : Rs. 50000.00
+Scholarship Percentage     : 0%
+Scholarship Amount         : Rs. 0.00
+Final Payable Fee          : Rs. 50000.00
+Amount Paid                : Rs. 50000.00
+Fee Balance                : Rs. 0.00
+Fee Status                 : PAID
+
+---------------- FINAL STATUS ------------------------
+Semester Clearance         : CLEARED FOR NEXT SEMESTER
+
+---------------- FAILED CONDITIONS -------------------
+None
+
+---------------- RECOMMENDATIONS ---------------------
+Maintain the current performance in the next semester.
+========================================================
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice: 0
+Thank you for using CampusTrack.

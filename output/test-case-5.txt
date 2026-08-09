@@ -1,0 +1,135 @@
+INPUT:  Test Case 5: Invalid input re-entry
+
+========================================================
+                      CAMPUSTRACK
+========================================================
+           Student Academic Management System
+--------------------------------------------------------
+Enter student ID: 
+STU101
+Enter full name: 
+Ananya Rao
+Enter age: 
+10
+Invalid age. Enter a value between 15 and 35.
+Enter age:
+20
+Enter email: 
+ananya@gmail.com
+Select course: 
+1. BCA
+2. B.Sc Computer Science
+3. BE/B.Tech
+4. MCA
+5. Other
+Enter course choice:
+8
+Invalid course choice. Select a value from 1 to 5.
+Select course:
+1. BCA
+2. B.Sc Computer Science
+3. BE/B.Tech
+4. MCA
+5. Other
+Enter course choice:
+1
+Enter semester (1-8): 
+4
+Career goal: 
+Become a java backend developer
+Enter Java marks: 
+110
+Invalid Java marks. Enter a value between 0 and 100.
+Enter Java marks:
+75
+Enter SQL marks: 
+40
+Enter Web Technology marks: 
+40
+Enter Aptitude marks: 
+40
+Enter Communication marks: 
+40
+Enter total classess conducted: 
+0
+Invalid total classes. Enter a value between 1 and 300.
+Enter total classess conducted:
+100
+Enter classes attended: 
+120
+Invalid classes attended. Enter a value between 0 and total classes.
+Enter classes attended:
+80
+How many assignment scores do you want to enter?
+5
+Enter score for assignment 1(0-10, -1 to finish): 
+8
+Enter score for assignment 2(0-10, -1 to finish): 
+9
+Enter score for assignment 3(0-10, -1 to finish): 
+7
+Enter score for assignment 4(0-10, -1 to finish): 
+8
+Enter score for assignment 5(0-10, -1 to finish): 
+9
+Enter amount paid: 
+30000
+
+OUTPUT:
+========================================================
+                 STUDENT SEMESTER REPORT
+========================================================
+Student ID                 : STU101
+Student Name               : Ananya Rao
+Age                        : 20
+Email                      : ananya@gmail.com
+Course                     : BCA
+Semester                   : 4
+Career Goal                : Become a java backend developer
+
+---------------- ACADEMIC SUMMARY --------------------
+Java Marks                 : 75
+SQL Marks                  : 40
+Web Technology Marks       : 40
+Aptitude Marks             : 40
+Communication Marks        : 40
+Total Marks                : 235/500
+Percentage                 : 47.00%
+Academic Result            : PASSED
+Grade                      : D
+
+---------------- ATTENDANCE SUMMARY ------------------
+Classes Conducted          : 100
+Classes Attended           : 80
+Attendance Percentage      : 80.00%
+Attendance Status          : REGULAR
+
+---------------- ASSIGNMENT SUMMARY ------------------
+Valid Assignments          : 5
+Assignment Total           : 41
+Assignment Average         : 8.20
+Assignment Status          : SATISFACTORY
+
+---------------- FEE SUMMARY ------------------
+Base Semester Fee          : Rs. 35000.00
+Scholarship Percentage     : 0%
+Scholarship Amount         : Rs. 0.00
+Final Payable Fee          : Rs. 35000.00
+Amount Paid                : Rs. 30000.00
+Fee Balance                : Rs. 5000.00
+Fee Status                 : PENDING
+
+---------------- FINAL STATUS ------------------------
+Semester Clearance         : ACTION REQUIRED
+
+---------------- FAILED CONDITIONS -------------------
+Semester fee is pending.
+
+---------------- RECOMMENDATIONS ---------------------
+Pay the pending semester fee before clearance.
+========================================================
+Do you want to process another student?
+1. Yes
+0. No
+Enter choice: 0
+Thank you for using CampusTrack.

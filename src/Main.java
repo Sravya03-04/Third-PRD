@@ -267,22 +267,16 @@ class Main {
             }
             // ---------------- PROCESS ANOTHER STUDENT ----------------
 
-            System.out.println(
-                    "\nDo you want to process another student?");
-
+            System.out.println("\nDo you want to process another student?");
             System.out.println("1. Yes");
             System.out.println("2. No");
-
             do {
                 System.out.print("Enter choice: ");
                 choice = sc.nextInt();
-
                 if (choice != 1 && choice != 2) {
                     System.out.println("Invalid choice. Enter 1 for Yes or 2 for No.");
                 }
-
             } while (choice != 1 && choice != 2);
-
         } while (choice == 1);
         System.out.println("Thank you for using CampusTrack.");
         sc.close();
